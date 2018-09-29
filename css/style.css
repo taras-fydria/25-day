@@ -8,7 +8,7 @@ body {
 	color: #171717;
 	font-size: 18px;
 	font-weight: 300;
-	line-height: 34px;
+	line-height: 1.5;
 	text-align: left;
 	background-color: #ffffff;
 
@@ -72,6 +72,7 @@ p:first-child::first-letter {
 	width: 260px;
 	height: 64px;
 	padding: 25px 75px;
+	display:inline-block;
 }
 .ba-quote{
 	font-style: italic;

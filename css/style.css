@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #171717;
+
+	color: #171717;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 34px;
+	text-align: left;
+	background-color: #ffffff;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 20px;
+}
+
+/* Layout */
+.ba-container {
+	padding: 100px;
+	max-width: 1400px;
+	margin: 100px auto;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ba-title {
+	font-family: PlayfairDisplay;
+	color: #171717;
+	font-size: 42px;
+	/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+p:first-child::first-letter {
+	font-family: PlayfairDisplay;
+	color: #171717;
+	font-size: 110px;
+	/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 34px;
+	/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	display: block;
+	float: left;
+	padding-right: 20px;
+	/* padding-top: 20px; */
+}
+
+.ba-button {
+	font-family: Lato;
+	color: #eaa258;
+	font-size: 18px;
+	/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 34px;
+	/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-decoration: none;
+	border-width: 2px;
+	border-color: #eaa258;
+	border-style: solid;
+	width: 260px;
+	height: 64px;
+	padding: 25px 75px;
+}
+.ba-quote{
+	font-style: italic;
+	font-weight: 700px;
+	margin-bottom: 70px;
+}
+.ba-quote::first-letter{
+	padding-right: 40px;
+}
